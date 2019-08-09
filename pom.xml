@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bae</groupId>
-	<artifactId>Assessment-CoreAPI</artifactId>
+	<artifactId>Assessment-UserAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Assessment-CoreAPI</name>
-	<description>Core API for Spring Boot assessment (PokeAPI)</description>
+	<name>Assessment-UserAPI</name>
+	<description>User API for Spring Boot assessment (PokeAPI)</description>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public String createUser(User user) {
 		repo.save(user);
-		return "User create!";
+		return "User created!";
 	}
 
 	@Override
