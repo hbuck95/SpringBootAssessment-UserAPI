@@ -3,10 +3,12 @@ package com.bae.business;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.bae.persistence.domain.User;
 import com.bae.persistence.repository.UserRepository;
 
+@Service
 public class UserServiceImpl implements UserService {
 	private UserRepository repo;
 

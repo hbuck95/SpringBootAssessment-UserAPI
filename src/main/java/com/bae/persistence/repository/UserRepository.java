@@ -10,7 +10,7 @@ import com.bae.persistence.domain.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-	@Query("SELECT u FROM Users u where u.member_id = :memberId")
+	@Query(value = "SELECT u FROM User u WHERE u.memberId = :memberId")
 	User findByMemberId(@Param("memberId") int memberId);
 
 }
