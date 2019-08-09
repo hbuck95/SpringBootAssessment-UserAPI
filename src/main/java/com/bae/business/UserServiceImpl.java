@@ -18,12 +18,12 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public String createUser(User user) {
 		repo.save(user);
-		return null;
+		return "User create!";
 	}
 
 	@Override
 	public User findUserByMemberId(int memberId) {
-		return null;
+		return repo.findByMemberId(memberId);
 	}
 
 	@Override
