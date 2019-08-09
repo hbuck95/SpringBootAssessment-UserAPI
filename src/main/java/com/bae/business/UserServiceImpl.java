@@ -12,6 +12,10 @@ import com.bae.persistence.repository.UserRepository;
 public class UserServiceImpl implements UserService {
 	private UserRepository repo;
 
+	private static final User MOCK_USER_A = new User(1, "Fred", 1);
+	private static final User MOCK_USER_B = new User(2, "Bob", 2);
+	private static final String MOCK_CREATE_USER_RESPONSE = "User created!";
+
 	@Autowired
 	public UserServiceImpl(UserRepository repo) {
 		this.repo = repo;
